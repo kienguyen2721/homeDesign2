@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OB3VC" customModule="kienhomedesign" customModuleProvider="target">
+            <connections>
+                <outlet property="nextButton" destination="wHJ-EA-LQL" id="cfE-tW-h4b"/>
+                <outlet property="obLabel" destination="Irv-vm-Z2B" id="PSI-G6-n8H"/>
+                <outlet property="view" destination="AB2-rZ-rcd" id="RDh-h9-JdX"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="AB2-rZ-rcd">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgob3" translatesAutoresizingMaskIntoConstraints="NO" id="udT-ig-oaq">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="793"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle Copy" translatesAutoresizingMaskIntoConstraints="NO" id="JG9-BA-1iC">
+                    <rect key="frame" x="0.0" y="592" width="414" height="270"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wHJ-EA-LQL">
+                    <rect key="frame" x="23" y="763" width="368" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="4D7-HW-gav"/>
+                        <constraint firstAttribute="width" secondItem="wHJ-EA-LQL" secondAttribute="height" multiplier="92:15" id="gMi-Uc-MGI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Next">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="nextOnTapButton" destination="-1" eventType="touchUpInside" id="gDG-UM-MAZ"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Save &amp; Share Your Design With Friends" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Irv-vm-Z2B">
+                    <rect key="frame" x="63" y="701" width="287" height="48"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fcp-cf-h2h"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="wHJ-EA-LQL" firstAttribute="top" secondItem="Irv-vm-Z2B" secondAttribute="bottom" constant="14" id="1BY-sy-Gvo"/>
+                <constraint firstItem="udT-ig-oaq" firstAttribute="top" secondItem="AB2-rZ-rcd" secondAttribute="top" id="5iZ-xQ-8ct"/>
+                <constraint firstItem="fcp-cf-h2h" firstAttribute="bottom" secondItem="udT-ig-oaq" secondAttribute="bottom" constant="69" id="A45-n1-Mzw"/>
+                <constraint firstItem="JG9-BA-1iC" firstAttribute="trailing" secondItem="fcp-cf-h2h" secondAttribute="trailing" id="DJS-9v-7vv"/>
+                <constraint firstItem="fcp-cf-h2h" firstAttribute="trailing" secondItem="udT-ig-oaq" secondAttribute="trailing" id="Irr-25-mgE"/>
+                <constraint firstItem="fcp-cf-h2h" firstAttribute="trailing" secondItem="Irv-vm-Z2B" secondAttribute="trailing" constant="64" id="Iyc-97-dPG"/>
+                <constraint firstItem="udT-ig-oaq" firstAttribute="leading" secondItem="fcp-cf-h2h" secondAttribute="leading" id="Ouu-Fa-kEj"/>
+                <constraint firstItem="fcp-cf-h2h" firstAttribute="bottom" secondItem="JG9-BA-1iC" secondAttribute="bottom" id="U4g-Aq-uuw"/>
+                <constraint firstItem="fcp-cf-h2h" firstAttribute="bottom" secondItem="wHJ-EA-LQL" secondAttribute="bottom" constant="39" id="WRl-0d-h0f"/>
+                <constraint firstItem="Irv-vm-Z2B" firstAttribute="leading" secondItem="fcp-cf-h2h" secondAttribute="leading" constant="63" id="hGQ-vW-Z5Q"/>
+                <constraint firstItem="JG9-BA-1iC" firstAttribute="leading" secondItem="fcp-cf-h2h" secondAttribute="leading" id="kzu-z5-XQL"/>
+                <constraint firstItem="wHJ-EA-LQL" firstAttribute="centerX" secondItem="AB2-rZ-rcd" secondAttribute="centerX" id="zCE-uj-fgV"/>
+            </constraints>
+            <point key="canvasLocation" x="136.23188405797103" y="77.008928571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Rectangle Copy" width="375" height="270"/>
+        <image name="bgob3" width="375" height="743"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

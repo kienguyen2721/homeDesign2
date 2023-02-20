@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeStyleView" customModule="kienhomedesign" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="VPp-wh-ByE" id="bPS-Z5-cpb"/>
+                <outlet property="homeRoomView" destination="WbX-Tg-MS0" id="Vqy-iY-Gr6"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="817" height="484"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WbX-Tg-MS0">
+                    <rect key="frame" x="0.0" y="0.0" width="817" height="484"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hNC-sp-57i">
+                            <rect key="frame" x="0.0" y="0.0" width="817" height="89.5"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="LPp-46-Og1">
+                                    <rect key="frame" x="20" y="18" width="54" height="53.5"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="LPp-46-Og1" secondAttribute="height" id="D82-Qg-ntB"/>
+                                    </constraints>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9jk-df-Xf2">
+                                    <rect key="frame" x="20" y="18" width="54" height="53.5"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal">
+                                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="pressXButton:" destination="-1" eventType="touchUpInside" id="Ecu-XX-PUf"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="LPp-46-Og1" firstAttribute="leading" secondItem="hNC-sp-57i" secondAttribute="leading" constant="20" id="06D-mu-RdG"/>
+                                <constraint firstItem="9jk-df-Xf2" firstAttribute="width" secondItem="LPp-46-Og1" secondAttribute="width" id="0gq-EK-tFJ"/>
+                                <constraint firstItem="9jk-df-Xf2" firstAttribute="leading" secondItem="hNC-sp-57i" secondAttribute="leading" constant="20" id="H3e-ef-EV1"/>
+                                <constraint firstItem="LPp-46-Og1" firstAttribute="height" secondItem="hNC-sp-57i" secondAttribute="height" multiplier="0.6" id="OxF-xU-Lw6"/>
+                                <constraint firstItem="LPp-46-Og1" firstAttribute="centerY" secondItem="hNC-sp-57i" secondAttribute="centerY" id="hRL-Wp-8nN"/>
+                                <constraint firstItem="9jk-df-Xf2" firstAttribute="height" secondItem="LPp-46-Og1" secondAttribute="height" id="rgo-Bx-9I7"/>
+                                <constraint firstItem="9jk-df-Xf2" firstAttribute="centerY" secondItem="hNC-sp-57i" secondAttribute="centerY" id="tuc-hu-a8x"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P3V-xD-wV0">
+                            <rect key="frame" x="0.0" y="89.5" width="817" height="394.5"/>
+                            <subviews>
+                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="VPp-wh-ByE">
+                                    <rect key="frame" x="0.0" y="0.0" width="817" height="394.5"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="CnP-xe-AlK">
+                                        <size key="itemSize" width="128" height="128"/>
+                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </collectionViewFlowLayout>
+                                </collectionView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="VPp-wh-ByE" secondAttribute="trailing" id="MiW-0o-w4A"/>
+                                <constraint firstAttribute="bottom" secondItem="VPp-wh-ByE" secondAttribute="bottom" id="RCS-0C-RwE"/>
+                                <constraint firstItem="VPp-wh-ByE" firstAttribute="leading" secondItem="P3V-xD-wV0" secondAttribute="leading" id="t94-6X-df3"/>
+                                <constraint firstItem="VPp-wh-ByE" firstAttribute="top" secondItem="P3V-xD-wV0" secondAttribute="top" id="ypo-LS-p1L"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="P3V-xD-wV0" firstAttribute="centerX" secondItem="WbX-Tg-MS0" secondAttribute="centerX" id="756-lT-Gfe"/>
+                        <constraint firstItem="P3V-xD-wV0" firstAttribute="height" secondItem="WbX-Tg-MS0" secondAttribute="height" multiplier="4.4:5.4" id="KBC-3Z-oRf"/>
+                        <constraint firstAttribute="trailing" secondItem="hNC-sp-57i" secondAttribute="trailing" id="Rvf-7o-ByW"/>
+                        <constraint firstItem="P3V-xD-wV0" firstAttribute="top" secondItem="hNC-sp-57i" secondAttribute="bottom" id="XeH-jS-LLl"/>
+                        <constraint firstItem="hNC-sp-57i" firstAttribute="top" secondItem="WbX-Tg-MS0" secondAttribute="top" id="a10-O5-maa"/>
+                        <constraint firstAttribute="bottom" secondItem="P3V-xD-wV0" secondAttribute="bottom" id="d8K-iX-94r"/>
+                        <constraint firstItem="P3V-xD-wV0" firstAttribute="width" secondItem="WbX-Tg-MS0" secondAttribute="width" id="uex-qt-Bat"/>
+                        <constraint firstItem="hNC-sp-57i" firstAttribute="leading" secondItem="WbX-Tg-MS0" secondAttribute="leading" id="wPP-TH-1ph"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="WbX-Tg-MS0" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="5Me-8a-Xex"/>
+                <constraint firstItem="WbX-Tg-MS0" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="B90-Gx-njZ"/>
+                <constraint firstItem="WbX-Tg-MS0" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="gUK-Sc-lOH"/>
+                <constraint firstItem="WbX-Tg-MS0" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="qhb-WX-GLb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="429.71014492753625" y="-41.517857142857139"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="x" width="22" height="22"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

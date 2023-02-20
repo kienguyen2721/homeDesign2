@@ -1,0 +1,320 @@
+PODS:
+  - Alamofire (5.6.4)
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - CryptoSwift (1.4.3)
+  - FCFileManager (1.0.20)
+  - Firebase/Analytics (10.3.0):
+    - Firebase/Core
+  - Firebase/Core (10.3.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (~> 10.3.0)
+  - Firebase/CoreOnly (10.3.0):
+    - FirebaseCore (= 10.3.0)
+  - Firebase/Crashlytics (10.3.0):
+    - Firebase/CoreOnly
+    - FirebaseCrashlytics (~> 10.3.0)
+  - Firebase/RemoteConfig (10.3.0):
+    - Firebase/CoreOnly
+    - FirebaseRemoteConfig (~> 10.3.0)
+  - FirebaseABTesting (10.3.0):
+    - FirebaseCore (~> 10.0)
+  - FirebaseAnalytics (10.3.0):
+    - FirebaseAnalytics/AdIdSupport (= 10.3.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseAnalytics/AdIdSupport (10.3.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleAppMeasurement (= 10.3.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseCore (10.3.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Logger (~> 7.8)
+  - FirebaseCoreInternal (10.3.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FirebaseCrashlytics (10.3.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/Environment (~> 7.8)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (~> 2.1)
+  - FirebaseInstallations (10.3.0):
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - PromisesObjC (~> 2.1)
+  - FirebaseRemoteConfig (10.3.0):
+    - FirebaseABTesting (~> 10.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FSPagerView (0.8.3)
+  - GoogleAppMeasurement (10.3.0):
+    - GoogleAppMeasurement/AdIdSupport (= 10.3.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (10.3.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.3.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (10.3.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleDataTransport (9.2.0):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/AppDelegateSwizzler (7.10.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.10.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.10.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.10.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.10.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.10.0)"
+  - GoogleUtilities/Reachability (7.10.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.10.0):
+    - GoogleUtilities/Logger
+  - IronSourceSDK (7.2.3.0)
+  - JGProgressHUD (2.2)
+  - lottie-ios (4.0.1)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - nanopb (2.30909.0):
+    - nanopb/decode (= 2.30909.0)
+    - nanopb/encode (= 2.30909.0)
+  - nanopb/decode (2.30909.0)
+  - nanopb/encode (2.30909.0)
+  - ObjectMapper (4.2.0)
+  - Permission/Camera (3.1.2):
+    - Permission/Core
+  - Permission/Core (3.1.2)
+  - Permission/Photos (3.1.2):
+    - Permission/Core
+  - PromisesObjC (2.1.1)
+  - R.swift (6.1.0):
+    - R.swift.Library (~> 5.3.0)
+  - R.swift.Library (5.3.0)
+  - Realm (10.25.2):
+    - Realm/Headers (= 10.25.2)
+  - Realm/Headers (10.25.2)
+  - RealmSwift (10.25.2):
+    - Realm (= 10.25.2)
+  - SDCAlertView (12.0.2)
+  - SDWebImage (5.14.3):
+    - SDWebImage/Core (= 5.14.3)
+  - SDWebImage/Core (5.14.3)
+  - SnapKit (5.6.0)
+  - Spring (1.0.6)
+  - SwifterSwift (5.2.0):
+    - SwifterSwift/AppKit (= 5.2.0)
+    - SwifterSwift/CoreAnimation (= 5.2.0)
+    - SwifterSwift/CoreGraphics (= 5.2.0)
+    - SwifterSwift/CoreLocation (= 5.2.0)
+    - SwifterSwift/Dispatch (= 5.2.0)
+    - SwifterSwift/Foundation (= 5.2.0)
+    - SwifterSwift/MapKit (= 5.2.0)
+    - SwifterSwift/SceneKit (= 5.2.0)
+    - SwifterSwift/SpriteKit (= 5.2.0)
+    - SwifterSwift/StoreKit (= 5.2.0)
+    - SwifterSwift/SwiftStdlib (= 5.2.0)
+    - SwifterSwift/UIKit (= 5.2.0)
+  - SwifterSwift/AppKit (5.2.0)
+  - SwifterSwift/CoreAnimation (5.2.0)
+  - SwifterSwift/CoreGraphics (5.2.0)
+  - SwifterSwift/CoreLocation (5.2.0)
+  - SwifterSwift/Dispatch (5.2.0)
+  - SwifterSwift/Foundation (5.2.0)
+  - SwifterSwift/MapKit (5.2.0)
+  - SwifterSwift/SceneKit (5.2.0)
+  - SwifterSwift/SpriteKit (5.2.0)
+  - SwifterSwift/StoreKit (5.2.0)
+  - SwifterSwift/SwiftStdlib (5.2.0)
+  - SwifterSwift/UIKit (5.2.0)
+  - SwiftNotificationCenter (1.0.4)
+  - SwiftRater (2.1.0)
+  - SwiftyBeaver (1.9.5)
+  - SwiftyJSON (5.0.1)
+  - SwiftyShadow (1.7.0)
+  - SwiftyStoreKit (0.16.1)
+  - SwiftyUserDefaults (5.3.0)
+  - Then (3.0.0)
+  - "UIView+Shimmer (1.0.0)"
+  - YandexMobileMetrica (4.2.0):
+    - YandexMobileMetrica/Static (= 4.2.0)
+  - YandexMobileMetrica/Static (4.2.0):
+    - YandexMobileMetrica/Static/Core (= 4.2.0)
+    - YandexMobileMetrica/Static/Crashes (= 4.2.0)
+  - YandexMobileMetrica/Static/Core (4.2.0)
+  - YandexMobileMetrica/Static/Crashes (4.2.0):
+    - YandexMobileMetrica/Static/Core
+
+DEPENDENCIES:
+  - ChameleonFramework
+  - CryptoSwift (~> 1.4.1)
+  - FCFileManager
+  - Firebase/Analytics
+  - Firebase/Core
+  - Firebase/Crashlytics
+  - Firebase/RemoteConfig
+  - FSPagerView
+  - IronSourceSDK (= 7.2.3.0)
+  - JGProgressHUD
+  - lottie-ios
+  - Moya (~> 14.0)
+  - ObjectMapper
+  - Permission/Camera
+  - Permission/Photos
+  - R.swift (= 6.1.0)
+  - RealmSwift (~> 10.25.2)
+  - SDCAlertView
+  - SDWebImage (~> 5.0)
+  - SnapKit (~> 5.6.0)
+  - Spring (from `https://github.com/MussaCharles/Spring.git`)
+  - SwifterSwift
+  - SwiftNotificationCenter
+  - SwiftRater
+  - SwiftyBeaver
+  - SwiftyJSON
+  - SwiftyShadow (~> 1.7.0)
+  - SwiftyStoreKit
+  - SwiftyUserDefaults (~> 5.0)
+  - Then
+  - "UIView+Shimmer"
+  - YandexMobileMetrica (= 4.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ChameleonFramework
+    - CryptoSwift
+    - FCFileManager
+    - Firebase
+    - FirebaseABTesting
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreInternal
+    - FirebaseCrashlytics
+    - FirebaseInstallations
+    - FirebaseRemoteConfig
+    - FSPagerView
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleUtilities
+    - IronSourceSDK
+    - JGProgressHUD
+    - lottie-ios
+    - Moya
+    - nanopb
+    - ObjectMapper
+    - Permission
+    - PromisesObjC
+    - R.swift
+    - R.swift.Library
+    - Realm
+    - RealmSwift
+    - SDCAlertView
+    - SDWebImage
+    - SnapKit
+    - SwifterSwift
+    - SwiftNotificationCenter
+    - SwiftRater
+    - SwiftyBeaver
+    - SwiftyJSON
+    - SwiftyShadow
+    - SwiftyStoreKit
+    - SwiftyUserDefaults
+    - Then
+    - "UIView+Shimmer"
+    - YandexMobileMetrica
+
+EXTERNAL SOURCES:
+  Spring:
+    :git: https://github.com/MussaCharles/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: e01ebde57b5e9ee18d2bdf81c9cf8da825306ae4
+    :git: https://github.com/MussaCharles/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  CryptoSwift: a0799ee936271bd2253a006f1e4523df21845000
+  FCFileManager: e0f73316e6aa2eb04d2ff4caa75fe7df1ae44270
+  Firebase: f92fc551ead69c94168d36c2b26188263860acd9
+  FirebaseABTesting: e6660693429b4663573c82f8d2f1041deff1753a
+  FirebaseAnalytics: 036232b6a1e2918e5f67572417be1173576245f3
+  FirebaseCore: 988754646ab3bd4bdcb740f1bfe26b9f6c0d5f2a
+  FirebaseCoreInternal: 29b76f784d607df8b2a1259d73c3f04f1210137b
+  FirebaseCrashlytics: f20d956f8229010b645e534693c39e0b7843c268
+  FirebaseInstallations: e2f26126089dcf41e215f7b8925af8d953c7d602
+  FirebaseRemoteConfig: c24f767c17b0440ee63c7e93380d599173556113
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  GoogleAppMeasurement: c7d6fff39bf2d829587d74088d582e32d75133c3
+  GoogleDataTransport: 1c8145da7117bd68bbbed00cf304edb6a24de00f
+  GoogleUtilities: bad72cb363809015b1f7f19beb1f1cd23c589f95
+  IronSourceSDK: ae9dbc9eece5185ec83b854f74ff124d961829e8
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  lottie-ios: 54d22edf55b839f0929cabbfe609c9aa548b1145
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  Permission: 4821359fb4d4367fb59aa16df38fbba5722ac842
+  PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
+  R.swift: ec98ff71c4ab2f6fd01dd077e5afd15e63a4834c
+  R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
+  Realm: 978303663d0509166498f423d112e5ee97d4c91b
+  RealmSwift: a0c30c1efc49e928a0a6f8fb141bb2629616d79b
+  SDCAlertView: 1c0410de80548da3fed142ded0b97644d9848577
+  SDWebImage: 9c36e66c8ce4620b41a7407698dda44211a96764
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
+  SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
+  SwiftNotificationCenter: 760386da2ce03d3594cb5e96d1e22ec80b44b46f
+  SwiftRater: 23f3c60a468daf3cad69447b67e42d6f5261331f
+  SwiftyBeaver: 84069991dd5dca07d7069100985badaca7f0ce82
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  SwiftyShadow: d2697c62eb83759b7806466e3ea29de24c772c29
+  SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
+  SwiftyUserDefaults: 63f80248cf5bfb3458825d9a78f2eb7e1293a040
+  Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
+  "UIView+Shimmer": ed634f95e8f4bda666b28b47bd85a4336a4117d8
+  YandexMobileMetrica: f5f9c605eaaba33ff6ab2b6bc3259035ca60ed87
+
+PODFILE CHECKSUM: 1ace39fcfd3c430ddefa4a6a3b7820fbd1a5c867
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OB2VC" customModule="kienhomedesign" customModuleProvider="target">
+            <connections>
+                <outlet property="nextButton" destination="ZGr-up-XQ8" id="z3u-dg-FFB"/>
+                <outlet property="obLabel" destination="3vU-w2-Nqt" id="wsu-5N-fVp"/>
+                <outlet property="view" destination="2en-S2-ftk" id="b4c-Pn-iLH"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="2en-S2-ftk">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgob2" translatesAutoresizingMaskIntoConstraints="NO" id="40k-qm-DCw">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="793"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle Copy" translatesAutoresizingMaskIntoConstraints="NO" id="l1g-Nj-odF">
+                    <rect key="frame" x="0.0" y="592" width="414" height="270"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZGr-up-XQ8">
+                    <rect key="frame" x="23" y="763" width="368" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ZGr-up-XQ8" secondAttribute="height" multiplier="92:15" id="fu9-CX-Azv"/>
+                        <constraint firstAttribute="height" constant="60" id="x9N-dL-inj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Next">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="nextOnTapButton" destination="-1" eventType="touchUpInside" id="ISw-bq-uWE"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Try Out Diffirent Design Styles" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3vU-w2-Nqt">
+                    <rect key="frame" x="79.5" y="701" width="255" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="7zw-7W-cOR"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="40k-qm-DCw" firstAttribute="top" secondItem="2en-S2-ftk" secondAttribute="top" id="6Ee-68-Bqf"/>
+                <constraint firstItem="7zw-7W-cOR" firstAttribute="trailing" secondItem="40k-qm-DCw" secondAttribute="trailing" id="7a8-Fo-4z0"/>
+                <constraint firstItem="7zw-7W-cOR" firstAttribute="bottom" secondItem="40k-qm-DCw" secondAttribute="bottom" constant="69" id="SXz-VG-ees"/>
+                <constraint firstItem="l1g-Nj-odF" firstAttribute="leading" secondItem="7zw-7W-cOR" secondAttribute="leading" id="WrI-52-Dgm"/>
+                <constraint firstItem="l1g-Nj-odF" firstAttribute="trailing" secondItem="7zw-7W-cOR" secondAttribute="trailing" id="f6c-AX-V7u"/>
+                <constraint firstItem="40k-qm-DCw" firstAttribute="leading" secondItem="7zw-7W-cOR" secondAttribute="leading" id="fbb-N2-zAs"/>
+                <constraint firstItem="7zw-7W-cOR" firstAttribute="bottom" secondItem="ZGr-up-XQ8" secondAttribute="bottom" constant="39" id="hQY-q3-QBk"/>
+                <constraint firstItem="ZGr-up-XQ8" firstAttribute="top" secondItem="3vU-w2-Nqt" secondAttribute="bottom" constant="39" id="o9X-He-dNN"/>
+                <constraint firstItem="3vU-w2-Nqt" firstAttribute="centerX" secondItem="2en-S2-ftk" secondAttribute="centerX" id="oZx-Q5-0ru"/>
+                <constraint firstItem="ZGr-up-XQ8" firstAttribute="centerX" secondItem="2en-S2-ftk" secondAttribute="centerX" id="odB-OE-Qhz"/>
+                <constraint firstItem="7zw-7W-cOR" firstAttribute="bottom" secondItem="l1g-Nj-odF" secondAttribute="bottom" id="qwH-dZ-aSs"/>
+            </constraints>
+            <point key="canvasLocation" x="136.23188405797103" y="77.008928571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Rectangle Copy" width="375" height="270"/>
+        <image name="bgob2" width="375" height="756"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
